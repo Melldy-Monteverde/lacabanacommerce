@@ -1,3 +1,35 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* generalizado */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+/* ### */
+
 body {
     background-color: #efefef;
 }
+
+/* navbar */
+.navbar-color {
+    background-color: #630000;
+}
+
+.navbar__logo {
+    width: 15rem;
+}
+
+.btn--navbar {
+    background-color: #efefef;
+    color: #630000;
+}
+/* ### */

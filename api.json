@@ -4,6 +4,7 @@
         "nombre": "asado",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/asado.jpg",
         "alt": "asado"
@@ -13,6 +14,7 @@
         "nombre": "bife ancho",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/bife-ancho.jpg",
         "alt": "bife ancho"
@@ -22,6 +24,7 @@
         "nombre": "bife angosto",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/bife-angosto.jpg",
         "alt": "bife angosto"
@@ -31,6 +34,7 @@
         "nombre": "bife de chorizo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/bife-de-chorizo.jpg",
         "alt": "bife de chorizo"
@@ -40,6 +44,7 @@
         "nombre": "bola de lomo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/bola-de-lomo.jpg",
         "alt": "bola de lomo"
@@ -49,6 +54,7 @@
         "nombre": "colita de cuadril",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/colita-de-cuadril.jpg",
         "alt": "colita de cuadril"
@@ -58,6 +64,7 @@
         "nombre": "cuadrada",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/cuadrada.jpg",
         "alt": "cuadrada"
@@ -67,6 +74,7 @@
         "nombre": "cuadril",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/cuadril.jpg",
         "alt": "cuadril"
@@ -76,6 +84,7 @@
         "nombre": "entraña",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/entraña.jpg",
         "alt": "entraña"
@@ -85,6 +94,7 @@
         "nombre": "hamburguesa de carne",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/hamburguesas-de-carne.jpg",
         "alt": "hamburguesa de carne"
@@ -94,6 +104,7 @@
         "nombre": "lomo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/lomojpg.jpg",
         "alt": "lomo"
@@ -103,6 +114,7 @@
         "nombre": "matambre",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/matambre.jpg",
         "alt": "matambre"
@@ -112,6 +124,7 @@
         "nombre": "milanesa de carne",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/milanesas-carne.jpg",
         "alt": "milanesa de carne"
@@ -121,6 +134,7 @@
         "nombre": "nalga",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/nalga.jpg",
         "alt": "nalga"
@@ -130,6 +144,7 @@
         "nombre": "ojo de bife",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/ojo-de-bife.jpg",
         "alt": "ojo de bife"
@@ -139,6 +154,7 @@
         "nombre": "osobuco",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/osobuco.jpg",
         "alt": "osobuco"
@@ -148,6 +164,7 @@
         "nombre": "paleta",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/paleta.jpg",
         "alt": "paleta"
@@ -157,6 +174,7 @@
         "nombre": "peceto",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/peceto.jpg",
         "alt": "peceto"
@@ -166,6 +184,7 @@
         "nombre": "picada",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/picada.jpg",
         "alt": "picada"
@@ -175,6 +194,7 @@
         "nombre": "roast beef",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/roast-beef.jpg",
         "alt": "roast beef"
@@ -184,6 +204,7 @@
         "nombre": "tapa de asado",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/tapa-de-asado.jpg",
         "alt": "tapa de asado"
@@ -193,6 +214,7 @@
         "nombre": "tapa de nalga",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/tapa-de-nalga.jpg",
         "alt": "tapa de nalga"
@@ -202,6 +224,7 @@
         "nombre": "vacio",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_vacuno/vacio.jpg",
         "alt": "vacio"
@@ -211,6 +234,7 @@
         "nombre": "milanesa de pollo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_aves/milanesas-pollo.jpg",
         "alt": "milanesa de pollo"
@@ -220,6 +244,7 @@
         "nombre": "pata y muslo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_aves/pata-muslo.jpg",
         "alt": "pata muslo"
@@ -229,6 +254,7 @@
         "nombre": "pollo entero",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_aves/pollo-entero.jpg",
         "alt": "pollo entero"
@@ -238,6 +264,7 @@
         "nombre": "supremas",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_aves/supremas.jpg",
         "alt": "supremas"
@@ -247,6 +274,7 @@
         "nombre": "bondiola",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/bondiola.jpg",
         "alt": "bondiola"
@@ -256,6 +284,7 @@
         "nombre": "carre deshuesado",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/carre-deshuesado.jpg",
         "alt": "carre deshuesado"
@@ -265,6 +294,7 @@
         "nombre": "chuleta de pernil",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/chuleta-pernil.jpg",
         "alt": "chuleta de pernil"
@@ -274,6 +304,7 @@
         "nombre": "chuleta",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/chuleta.jpg",
         "alt": "chuleta"
@@ -283,6 +314,7 @@
         "nombre": "costillitas de cerdo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/costillita-cerdo.jpg",
         "alt": "costillitas de cerdo"
@@ -292,6 +324,7 @@
         "nombre": "matambrito",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/matambrito.jpg",
         "alt": "matambrito"
@@ -301,6 +334,7 @@
         "nombre": "milanesa de cerdo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/milanesas-de-cerdo.jpg",
         "alt": "milanesa de cerdo"
@@ -310,6 +344,7 @@
         "nombre": "pechito",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_cerdo/pechito.jpg",
         "alt": "pechito"
@@ -319,6 +354,7 @@
         "nombre": "chinchulin",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/chinchulin.jpg",
         "alt": "chinchulin"
@@ -328,6 +364,7 @@
         "nombre": "chorizo",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/chorizo.jpg",
         "alt": "chorizo"
@@ -337,6 +374,7 @@
         "nombre": "higado",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/higado.jpg",
         "alt": "higado"
@@ -346,6 +384,7 @@
         "nombre": "lengua",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/lengua.jpg",
         "alt": "lengua"
@@ -355,6 +394,7 @@
         "nombre": "molleja",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/molleja.jpg",
         "alt": "molleja"
@@ -364,6 +404,7 @@
         "nombre": "morcilla rosca",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/morcilla-rosca.jpg",
         "alt": "morcilla rosca"
@@ -373,6 +414,7 @@
         "nombre": "morcilla",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/morcilla.jpg",
         "alt": "morcilla"
@@ -382,6 +424,7 @@
         "nombre": "riñon",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/riñon.jpg",
         "alt": "riñon"
@@ -391,6 +434,7 @@
         "nombre": "salchicha parrillera",
         "precio": 1049.9,
         "cantidad": "1",
+        "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
         "img": "img/img_achuras_embutidos/salchicha-parrillera.jpg",
         "alt": "salchicha parrillera"
