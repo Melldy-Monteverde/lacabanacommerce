@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frigorifico La Cabañana</title>
+    <!-- sweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6ad2795456.js" crossorigin="anonymous"></script>
+    <!-- stilos propios -->
+    <link rel="shortcut icon" href="../img/img_logos_banners/flc_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light" id="homePage">
+        <div class="container-fluid navbar-color">
+            <a class="navbar-brand" href="../index.html"><img src="../img/img_logos_banners/logo_la_cabaña_S-F.png" alt="logo"
+                    class=navbar__logo></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="categoria">
+                    <a class="nav-link align-self-center btn btn-primary btn--navbar me-2 contacPage" href="#">contacto</a>
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <!-- <button class="btn btn-outline-primary me-3 btn--navbar" type="submit">Search</button> -->
+                    <button class="btn btn-outline-success me-3 btn--navbar mb-2" type="submit" id="btnCart"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito" class="contador">0</span></button>
+                    <button class="btn btn-outline-danger btn--navbar mb-2" type="submit" id="btnVaciarCarrito"><i class="fas fa-trash-alt"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- info -->
+    <section class="container contenedor-cards">
+        <!-- mapas -->
+        <div class="form__container"> 
+            <div class="row">
+                
+            <div class="col mapas col-md-auto col-lg-6">
+                <iframe class="mapa__locales rounded local--juramento" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6087006337766!2d-58.46101808507082!3d-34.563461562875545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d440442163%3A0x43b0ea41ee7d9200!2sAv.%20Juramento%202632%2C%20C1428%20CABA!5e0!3m2!1ses-419!2sar!4v1647268186840!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe> 
+                <iframe class="mapa__locales rounded local--nazca" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6231339760307!2d-58.50232078514949!3d-34.58840126419407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6491d6233e9%3A0x9d9b5cffb47e3648!2sAv.%20Nazca%204401%2C%20C1419DFH%20CABA!5e0!3m2!1ses-419!2sar!4v1648681132954!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="mapa__locales rounded local--lacroze" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8478405768424!2d-58.45481078514971!3d-34.58271646389348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e6095d1d4f%3A0x6494f0d01fe7318c!2sAv.%20Federico%20Lacroze%203731%2C%20C1427EDC%20CABA!5e0!3m2!1ses-419!2sar!4v1648681039815!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Contacto -->
+            <div class="info col-md-auto col-lg-6">
+                <div class="contactInfo__container rounded">
+                    
+                    <h4>Contactanos en nuestras sucursales</h4>
+                    <div class="tlfYdir__container">
+                        <p class="direcciones">
+                            <b>Direccion:</b> Av. Juramento 2632 Belgrano  <br>
+                            <b>Telefono:</b> 11-5703-7913 <br>
+                            <b>Horarios:</b> 8:00 a 20:30 hs - Lunes a Sabado | 9:00 a 13:00 hs - Domingos y Feriados
+                        </p> 
+                    </div>
+                    <div class="tlfYdir__container">
+                   <p class="direcciones">
+                        <b>Direccion:</b> Av. Federico Lacroze 3731 Chacarita <br>
+                        <b>Telefono:</b> 11-6724-6444 <br>
+                        <b>Horarios:</b> 8:00 a 20:30 hs - Lunes a Sabado | 9:00 a 13:00 hs - Domingos y Feriados
+                    </p> 
+                </div>
+                <div class="tlfYdir__container">
+                   <p class="direcciones">
+                        <b>Direccion:</b> Av. Nazca 4401 Villa Pueyrredon <br>
+                        <b>Telefono:</b> 11-6724-6327 <br>
+                        <b>Horarios:</b> 8:00 a 20:30 hs - Lunes a Sabado | 9:00 a 13:00 hs - Domingos y Feriados
+                    </p> 
+                </div>
+            </div>
+
+            <!-- Formulario -->
+                <div class="formulario col-md-auto col-lg-auto">
+                    <!-- volver agregar en la tag de form el atributo netlify cuando la suba al host y el metodo post -->
+                    <form action="contactos.html" method="" name="contacto" class="rounded formulario" id="form" autocomplete="off" >
+                        <label for="userName"></label>
+                        <input type="text" name="nombre" id="user_Name" class="input-form" placeholder="Nombre *" required>
+                        <label for="userTel"></label>
+                        <input type="tel" name="telefono" id="user_Tel" class="input-form" placeholder="Telefono *" required>
+                        <label for="userMail"></label>
+                        <input type="email" name="email" id="user_Email" class="input-form" placeholder="E-mail *" required>
+                        <label for="user_Coment"></label>
+                        <textarea name="comentarios" id="user_Coment" class="input-form" placeholder="Dejanos tu comentario *" required></textarea>
+                        <!-- boton enviar y reset -->
+                        <div class="d-grid gap-2 d-md-block botoneE">
+                            <input id="btnEnviar" class="btn btn-primary input-form btn--navbar" type="submit" value="Enviar">
+                            <input id="btnBorrar" class="btn btn-primary input-form btn--navbar" type="reset" value="Borrar">
+                        </div>    
+                        <p id="msjEnviado" class="msjEnviado"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-center" id="productos">
+        <!-- 
+              <div class="col-12 col-md-4 mt-3 mb-3 d-flex justify-content-center">
+                    <div class="card text-dark" style="width: 18rem;">
+                        <img src="${img}" class="card-img-top">
+                        <div class="card-body">
+                          
+                            <h5 class="card-title">${nombre}</h5>
+                            <p class="card-text">${aviso}</p>
+                            <p class="card-text">$ ${precio}</p>
+                            <button class="btn btn-primary btn--card btnComprar" dataset=${id} id="btnAgregar${id}">Comprar</button>
+                            
+                        </div>
+                    </div>
+                </div>
+             -->
+      </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <!-- redes / btn home / btn top / contactame-->
+        <ul class="footer__ul">
+            <li class="footer__li"><a href="../index.html" class="btn__home"><i class="fas fa-home icon--foot"></i></a></li>
+            <li class="footer__li"><a href="https://www.facebook.com/carniceriacondelivery/" class="link__redes" target="_blank"><i class="fab fa-facebook icon--foot"></i></a></li>
+            <li class="footer__li"><a href="https://www.instagram.com/frigorificolacabanacaba/?hl=es" class="link__redes" target="_blank"><i class="fab fa-instagram icon--foot"></i></a></li>
+            <li class="footer__li"><a href="mailto:frigorificolacabanacaba@gmail.com" class="btn-mail"><i class="fas fa-envelope icon--foot"></i></a></li>
+            <li class="footer__li"><a href="https://wa.me/+5491126983269?text=¡Hola+quiero+hacer+un+pedido!" class="footer__links" target="_blank"><i class="fab fa-whatsapp icon--foot"></i></a></li>
+            <li class="footer__li"><a href="#top" class="btn__top"><i class="fas fa-angle-double-up icon--foot"></i></a>
+            </li>
+        </ul>
+
+        <div class="copy">
+            <h5>© Copy - Melldy Monteverde</h5>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../js/formulario.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>

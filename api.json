@@ -6,7 +6,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/asado.jpg",
+        "img": "../img/img_vacuno/asado.jpg",
         "alt": "asado"
     },
     {
@@ -16,7 +16,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/bife-ancho.jpg",
+        "img": "../img/img_vacuno/bife-ancho.jpg",
         "alt": "bife ancho"
     },
     {
@@ -26,7 +26,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/bife-angosto.jpg",
+        "img": "../img/img_vacuno/bife-angosto.jpg",
         "alt": "bife angosto"
     },
     {
@@ -36,7 +36,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/bife-de-chorizo.jpg",
+        "img": "../img/img_vacuno/bife-de-chorizo.jpg",
         "alt": "bife de chorizo"
     },
     {
@@ -46,7 +46,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/bola-de-lomo.jpg",
+        "img": "../img/img_vacuno/bola-de-lomo.jpg",
         "alt": "bola de lomo"
     },
     {
@@ -56,7 +56,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/colita-de-cuadril.jpg",
+        "img": "../img/img_vacuno/colita-de-cuadril.jpg",
         "alt": "colita de cuadril"
     },
     {
@@ -66,7 +66,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/cuadrada.jpg",
+        "img": "../img/img_vacuno/cuadrada.jpg",
         "alt": "cuadrada"
     },
     {
@@ -76,7 +76,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/cuadril.jpg",
+        "img": "../img/img_vacuno/cuadril.jpg",
         "alt": "cuadril"
     },
     {
@@ -86,7 +86,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/entraña.jpg",
+        "img": "../img/img_vacuno/entraña.jpg",
         "alt": "entraña"
     },
     {
@@ -96,7 +96,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/hamburguesas-de-carne.jpg",
+        "img": "../img/img_vacuno/hamburguesas-de-carne.jpg",
         "alt": "hamburguesa de carne"
     },
     {
@@ -106,7 +106,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/lomojpg.jpg",
+        "img": "../img/img_vacuno/lomojpg.jpg",
         "alt": "lomo"
     },
     {
@@ -116,7 +116,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/matambre.jpg",
+        "img": "../img/img_vacuno/matambre.jpg",
         "alt": "matambre"
     },
     {
@@ -126,7 +126,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/milanesas-carne.jpg",
+        "img": "../img/img_vacuno/milanesas-carne.jpg",
         "alt": "milanesa de carne"
     },
     {
@@ -136,7 +136,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/nalga.jpg",
+        "img": "../img/img_vacuno/nalga.jpg",
         "alt": "nalga"
     },
     {
@@ -146,7 +146,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/ojo-de-bife.jpg",
+        "img": "../img/img_vacuno/ojo-de-bife.jpg",
         "alt": "ojo de bife"
     },
     {
@@ -156,7 +156,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/osobuco.jpg",
+        "img": "../img/img_vacuno/osobuco.jpg",
         "alt": "osobuco"
     },
     {
@@ -166,7 +166,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/paleta.jpg",
+        "img": "../img/img_vacuno/paleta.jpg",
         "alt": "paleta"
     },
     {
@@ -176,7 +176,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/peceto.jpg",
+        "img": "../img/img_vacuno/peceto.jpg",
         "alt": "peceto"
     },
     {
@@ -186,7 +186,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/picada.jpg",
+        "img": "../img/img_vacuno/picada.jpg",
         "alt": "picada"
     },
     {
@@ -196,7 +196,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/roast-beef.jpg",
+        "img": "../img/img_vacuno/roast-beef.jpg",
         "alt": "roast beef"
     },
     {
@@ -206,7 +206,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/tapa-de-asado.jpg",
+        "img": "../img/img_vacuno/tapa-de-asado.jpg",
         "alt": "tapa de asado"
     },
     {
@@ -216,7 +216,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/tapa-de-nalga.jpg",
+        "img": "../img/img_vacuno/tapa-de-nalga.jpg",
         "alt": "tapa de nalga"
     },
     {
@@ -226,7 +226,7 @@
         "cantidad": "1",
         "tipo": "Vacunos",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_vacuno/vacio.jpg",
+        "img": "../img/img_vacuno/vacio.jpg",
         "alt": "vacio"
     },
     {
@@ -236,7 +236,7 @@
         "cantidad": "1",
         "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_aves/milanesas-pollo.jpg",
+        "img": "../img/img_aves/milanesas-pollo.jpg",
         "alt": "milanesa de pollo"
     },
     {
@@ -246,7 +246,7 @@
         "cantidad": "1",
         "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_aves/pata-muslo.jpg",
+        "img": "../img/img_aves/pata-muslo.jpg",
         "alt": "pata muslo"
     },
     {
@@ -256,7 +256,7 @@
         "cantidad": "1",
         "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_aves/pollo-entero.jpg",
+        "img": "../img/img_aves/pollo-entero.jpg",
         "alt": "pollo entero"
     },
     {
@@ -266,7 +266,7 @@
         "cantidad": "1",
         "tipo": "Aves",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_aves/supremas.jpg",
+        "img": "../img/img_aves/supremas.jpg",
         "alt": "supremas"
     },
     {
@@ -276,7 +276,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/bondiola.jpg",
+        "img": "../img/img_cerdo/bondiola.jpg",
         "alt": "bondiola"
     },
     {
@@ -286,7 +286,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/carre-deshuesado.jpg",
+        "img": "../img/img_cerdo/carre-deshuesado.jpg",
         "alt": "carre deshuesado"
     },
     {
@@ -296,7 +296,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/chuleta-pernil.jpg",
+        "img": "../img/img_cerdo/chuleta-pernil.jpg",
         "alt": "chuleta de pernil"
     },
     {
@@ -306,7 +306,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/chuleta.jpg",
+        "img": "../img/img_cerdo/chuleta.jpg",
         "alt": "chuleta"
     },
     {
@@ -316,7 +316,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/costillita-cerdo.jpg",
+        "img": "../img/img_cerdo/costillita-cerdo.jpg",
         "alt": "costillitas de cerdo"
     },
     {
@@ -326,7 +326,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/matambrito.jpg",
+        "img": "../img/img_cerdo/matambrito.jpg",
         "alt": "matambrito"
     },
     {
@@ -336,7 +336,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/milanesas-de-cerdo.jpg",
+        "img": "../img/img_cerdo/milanesas-de-cerdo.jpg",
         "alt": "milanesa de cerdo"
     },
     {
@@ -346,7 +346,7 @@
         "cantidad": "1",
         "tipo": "Cerdo",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_cerdo/pechito.jpg",
+        "img": "../img/img_cerdo/pechito.jpg",
         "alt": "pechito"
     },
     {
@@ -356,7 +356,7 @@
         "cantidad": "1",
         "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/chinchulin.jpg",
+        "img": "../img/img_achuras_embutidos/chinchulin.jpg",
         "alt": "chinchulin"
     },
     {
@@ -366,7 +366,7 @@
         "cantidad": "1",
         "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/chorizo.jpg",
+        "img": "../img/img_achuras_embutidos/chorizo.jpg",
         "alt": "chorizo"
     },
     {
@@ -376,7 +376,7 @@
         "cantidad": "1",
         "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/higado.jpg",
+        "img": "../img/img_achuras_embutidos/higado.jpg",
         "alt": "higado"
     },
     {
@@ -386,7 +386,7 @@
         "cantidad": "1",
         "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/lengua.jpg",
+        "img": "../img/img_achuras_embutidos/lengua.jpg",
         "alt": "lengua"
     },
     {
@@ -396,7 +396,7 @@
         "cantidad": "1",
         "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/molleja.jpg",
+        "img": "../img/img_achuras_embutidos/molleja.jpg",
         "alt": "molleja"
     },
     {
@@ -406,7 +406,7 @@
         "cantidad": "1",
         "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/morcilla-rosca.jpg",
+        "img": "../img/img_achuras_embutidos/morcilla-rosca.jpg",
         "alt": "morcilla rosca"
     },
     {
@@ -416,7 +416,7 @@
         "cantidad": "1",
         "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/morcilla.jpg",
+        "img": "../img/img_achuras_embutidos/morcilla.jpg",
         "alt": "morcilla"
     },
     {
@@ -426,7 +426,7 @@
         "cantidad": "1",
         "tipo": "Achuras",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/riñon.jpg",
+        "img": "../img/img_achuras_embutidos/riñon.jpg",
         "alt": "riñon"
     },
     {
@@ -436,7 +436,7 @@
         "cantidad": "1",
         "tipo": "Embutido",
         "aviso": "minimo de compra 1 kg",
-        "img": "img/img_achuras_embutidos/salchicha-parrillera.jpg",
+        "img": "../img/img_achuras_embutidos/salchicha-parrillera.jpg",
         "alt": "salchicha parrillera"
     }
 ]

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -28,8 +30,179 @@ body {
     width: 15rem;
 }
 
-.btn--navbar {
+.nav-link {
+    padding: 6px;
+}
+
+.btn--navbar{
     background-color: #efefef;
     color: #630000;
+    border: none;
+    font-weight: bold;
+}
+
+.btn--navbar:hover {
+    background-color: #630000;
+    color: #efefef;
+}
+
+.navbar-toggler{
+    background-color: #efefef;
+    color: #630000;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+/* ### */
+
+/* contenedor cards */
+.contenedor-cards {
+    border-top: 3px solid #630000;
+    border-bottom: 3px solid #630000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+}
+/* ### */
+
+/* cards */
+.card-body {
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn--card {
+    background-color: #630000;
+    color: #efefef;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn--card:hover { 
+    background-color: #efefef;
+    color: #630000;
+    border: 2px solid #630000;
+}
+/* ### */
+
+/* formulario */
+.form__container {
+    padding: .6rem;
+    height: auto;
+}
+
+.mapa__locales {
+    border: 3px solid #630000;
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.contactInfo__container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid #630000;
+    border-bottom: 3px solid #630000;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    padding: 1rem;
+}
+
+.direcciones {
+    margin: 3px;
+    font-size: 1rem; 
+}
+
+form.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #630000;
+    width: 100%; 
+}
+
+/* inputs del formulario */
+.input-form {
+    border: none;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+input.form-correcto, textarea.form-correcto {
+    border: 3px solid #29bb41; 
+}
+
+input.form-incorrecto, textarea.form-incorrecto {
+    border: 3px solid #ff0000; 
+}
+
+input[type=submit], input[type=reset] {
+    width: 100px;
+    background-color: #efefef;
+    color: #630000; 
+}
+
+input[type=submit]:hover {
+    color: #fff;
+    border: 1px solid #efefef;
+    background-color: #51b04e; 
+}
+
+input[type=reset]:hover {
+    color: #fff;
+    border: 1px solid #efefef;
+    background-color: #949494;
+}
+
+p#msjEnviado {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/* ### */
+
+/* footer */
+.footer {
+    border-top: 2px solid #630000;
+    background-color: #D3D6DB;
+    margin-top: 1rem; 
+    margin-bottom: 0; 
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.footer__li {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #630000;
+    padding: 10px;
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.copy {
+    margin-right: -30px;
+}
+
+.icon--foot {
+    color: #efefef;
+    width: 100%;
 }
 /* ### */
