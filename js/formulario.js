@@ -11,6 +11,23 @@ let btnContac = document.querySelector('.contacPage')
 
 let carritoDeCompras = [];
 
+// carga el dom y ejecuta el fetch para obtener los datos de la api local
+window.addEventListener('DOMContentLoaded', () => {
+    console.log('dom cargado')
+    fetch('../api.json')
+    .then(response => response.json())
+    .then(products => {
+        // console.log(products)
+        console.log("todos los cards llenos desde el json")
+
+        renderProductos(products)
+        renderCart(products)
+        
+    })
+
+    .catch( er => console.log(er))
+})
+
 // Regex para validar campos
 const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos y hasta 40 caracteres.
@@ -146,22 +163,6 @@ btnCart.addEventListener('click', (e) => {
     console.log('btn carrito presionado')
 })
 
-// carga el dom y ejecuta el fetch para obtener los datos de la api local
-window.addEventListener('DOMContentLoaded', () => {
-    console.log('dom cargado')
-    fetch('../api.json')
-    .then(response => response.json())
-    .then(products => {
-        // console.log(products)
-        console.log("todos los cards llenos desde el json")
-
-        renderProductos(products)
-        
-    })
-
-    .catch( er => console.log(er))
-})
-
 // renderiza el stock y los muestraen el DOM
 function renderProductos(products) {
  
@@ -257,5 +258,23 @@ function renderProductos(products) {
     productos.addEventListener('click', e => {
         addCarrito(e)
     
+    })
+}
+
+const renderCart = (products) => {
+    products.forEach(({nombre, cantidad, precio}) => {
+
+        let modalList = `
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="badge bg-primary rounded-pill">${cantidad}</span>
+                ${nombre} $${precio}
+                <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    rmv
+                </button>
+                </li>
+            </ul>
+            `;
+        document.querySelector('.modal-body').innerHTML += modalList
     })
 }

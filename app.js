@@ -1,9 +1,7 @@
 // probando api local
 const btnCart = document.getElementById('btnCart')
 const btnVaciarCarrito = document.getElementById('btnVaciarCarrito');
-
 let contadorCarrito = document.getElementById('contadorCarrito');
-
 
 const productos = document.getElementById('productos');
 
@@ -21,6 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log("todos los cards llenos desde el json")
 
         renderProductos(products)
+        renderCart(products)
         
     })
 
@@ -128,61 +127,85 @@ function renderProductos(products) {
         document.querySelector('#categoria').appendChild(btn);
         
     })
-
+        
     // ir a contactos
     btnContac.addEventListener('click', () => {
         location.href = './pages/contactos.html'
     })
-
+    
     // captura los click del contenedor de productos
     productos.addEventListener('click', e => {
         addCarrito(e)
-    
     })
 
 // fin de la funcion renderProductos
 }
 
-
 // muestra el elemento del click btn comprar de cada card
 const addCarrito = e => {
-    console.log(e.target)
+    // console.log(e.target)
 	console.log(e.target.classList.contains('btnComprar'))
     
 	if(e.target.classList.contains('btnComprar')) {
         
         // revisar aqui
-        carritoDeCompras.push(e.target.value)
-        contadorCarrito.innerText = carritoDeCompras.length
-        // actualizarCarrito()
+        console.log(e.target.parentElement)
+        carritoDeCompras.push(e.target.parentElement)
+
+        actualizarCarrito()
+        
         almacenarCarrito()
 	}
 	e.stopPropagation()
 }
 
 function actualizarCarrito() {
-    contadorCarrito.innerText = 1;
-    // let total = carritoDeCompras.reduce((acc, item) => acc + item.precio, 0);
-    // console.log(`El valor del carrito es: $${total}`)
+    contadorCarrito.innerText = carritoDeCompras.length;
+    let total = carritoDeCompras.reduce((acc, item) => acc + item.precio, 0);
+    console.log(`El valor del carrito es: $${total}`)
 }
 
 // previene el refresh del boton carrito 
 btnCart.addEventListener('click', (e) => {
     e.preventDefault();
     console.log('btn carrito presionado')
+
+    if(carritoDeCompras != null && carritoDeCompras != undefined) {
+        // renderCart()
+    } else {
+        sweetAlertVaciar()
+    }
+    console.log(carritoDeCompras)
 })
+
+const renderCart = (products) => {
+    products.forEach(({nombre, cantidad, precio}) => {
+
+        let modalList = `
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="badge bg-primary rounded-pill">${cantidad}</span>
+                ${nombre} $${precio}
+                <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    rmv
+                </button>
+                </li>
+            </ul>
+            `;
+        document.querySelector('.modal-body').innerHTML += modalList
+    })
+}
 
 // vaciar carrito
 btnVaciarCarrito.addEventListener('click', (e) => {
     e.preventDefault();
     const vaciarCarro = (carritoDeCompras.length === 0) ? sweetAlertVaciar() : carritoDeCompras.length = 0;
-    contadorCarrito.length = 0;
-    // actualizarCarrito()
+    contadorCarrito.innerText = 0;
+    actualizarCarrito()
 
     // eliminamos los datos del storage
     localStorage.removeItem('productosAlmacenados')
     console.log('carrito vacio')
-    console.log('storage vacio')
 })
 
 // alarma de carrito vacio
@@ -206,19 +229,10 @@ window.onload = function () {
 
     const recuperar = JSON.parse(localStorage.getItem('productosAlmacenados'))
 
-    if(recuperar != null || recuperar != undefined) {
+    if(recuperar != null && recuperar != undefined) {
         let recuperado = carritoDeCompras.length
         contadorCarrito.innerText = recuperado
     } else {
         console.log('storage vacio')
     }
 }
-
-// agregar al carrito, asociar id al boton agregar en cada producto y armar el boton de quitar del carrito
-// function agregarAlCarrito(id) {
-//     let agregarProducto = stockProductosAves.find(item => item.id === id);
-//     carritoDeCompras.push(agregarProducto);
-//     actualizarCarrito()
-
-//     console.log(carritoDeCompras)
-// }

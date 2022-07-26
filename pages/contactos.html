@@ -32,9 +32,7 @@
                     <a class="nav-link align-self-center btn btn-primary btn--navbar me-2 contacPage" href="#">contacto</a>
                 </ul>
                 <form class="d-flex" role="search">
-                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <!-- <button class="btn btn-outline-primary me-3 btn--navbar" type="submit">Search</button> -->
-                    <button class="btn btn-outline-success me-3 btn--navbar mb-2" type="submit" id="btnCart"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito" class="contador">0</span></button>
+                    <button class="btn btn-outline-success me-3 btn--navbar mb-2" type="submit" id="btnCart" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito" class="contador">0</span></button>
                     <button class="btn btn-outline-danger btn--navbar mb-2" type="submit" id="btnVaciarCarrito"><i class="fas fa-trash-alt"></i></button>
                 </form>
             </div>
@@ -82,12 +80,11 @@
 
             <!-- Formulario -->
                 <div class="formulario col-md-auto col-lg-auto">
-                    <!-- volver agregar en la tag de form el atributo netlify cuando la suba al host y el metodo post -->
-                    <form action="contactos.html" method="" name="contacto" class="rounded formulario" id="form" autocomplete="off" >
+                    <form action="contactos.html" method="POST" name="contactos" class="rounded formulario" id="form" autocomplete="off" netlify>
                         <label for="userName"></label>
-                        <input type="text" name="nombre" id="user_Name" class="input-form" placeholder="Nombre *" required>
+                        <input type="text" name="nombre" id="user_Name" class="input-form" placeholder="Nombre * permite solo letras" required>
                         <label for="userTel"></label>
-                        <input type="tel" name="telefono" id="user_Tel" class="input-form" placeholder="Telefono *" required>
+                        <input type="tel" name="telefono" id="user_Tel" class="input-form" placeholder="Telefono * entre 7 y 14 digitos" required>
                         <label for="userMail"></label>
                         <input type="email" name="email" id="user_Email" class="input-form" placeholder="E-mail *" required>
                         <label for="user_Coment"></label>
@@ -104,41 +101,40 @@
         </div>
     </div>
 
-    <div class="row text-center" id="productos">
-        <!-- 
-              <div class="col-12 col-md-4 mt-3 mb-3 d-flex justify-content-center">
-                    <div class="card text-dark" style="width: 18rem;">
-                        <img src="${img}" class="card-img-top">
-                        <div class="card-body">
-                          
-                            <h5 class="card-title">${nombre}</h5>
-                            <p class="card-text">${aviso}</p>
-                            <p class="card-text">$ ${precio}</p>
-                            <button class="btn btn-primary btn--card btnComprar" dataset=${id} id="btnAgregar${id}">Comprar</button>
-                            
-                        </div>
-                    </div>
-                </div>
-             -->
-      </div>
+    <div class="row text-center" id="productos"></div>
     </section>
 
-    <!-- modal -->
-    <div class="modal" tabindex="-1">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <div class="modal-body">
+    
+            <ul class="list-group" id="modalList">
+            <!--   <li class="list-group-item d-flex justify-content-between align-items-center">
+                A list item
+                <span class="badge bg-primary rounded-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                A second list item
+                <span class="badge bg-primary rounded-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                A third list item
+                <span class="badge bg-primary rounded-pill">0</span>
+                </li> -->
+            </ul> 
+    
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn--cerrar" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary btn--comprar--Modal">Comprar</button>
+            </div>
+        </div>
         </div>
     </div>
 

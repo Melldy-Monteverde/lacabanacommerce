@@ -33,9 +33,7 @@
           <a class="nav-link align-self-center btn btn-primary btn--navbar me-2 contacPage">contacto</a>
         </ul>
         <form class="d-flex" role="search">
-          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-          <!-- <button class="btn btn-outline-primary me-3 btn--navbar" type="submit">Search</button> -->
-          <button class="btn btn-outline-success me-3 btn--navbar mb-2" type="submit" id="btnCart"><i
+          <button class="btn btn-outline-success me-3 btn--navbar mb-2" type="submit" id="btnCart" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
               class="fas fa-shopping-cart"></i><span id="contadorCarrito" class="contador">0</span></button>
           <button class="btn btn-outline-danger btn--navbar mb-2" type="submit" id="btnVaciarCarrito"><i
               class="fas fa-trash-alt"></i></button>
@@ -65,24 +63,39 @@
     </div>
   </section>
 
-  <!-- modal -->
-  <div class="modal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Modal body text goes here.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <ul class="list-group" id="modalList">
+        <!--   <li class="list-group-item d-flex justify-content-between align-items-center">
+            A list item
+            <span class="badge bg-primary rounded-pill">0</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            A second list item
+            <span class="badge bg-primary rounded-pill">0</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            A third list item
+            <span class="badge bg-primary rounded-pill">0</span>
+          </li> -->
+        </ul> 
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn--cerrar" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary btn--comprar--Modal">Comprar</button>
       </div>
     </div>
   </div>
+</div>
 
   <!-- footer -->
   <footer class="footer">

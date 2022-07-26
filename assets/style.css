@@ -79,6 +79,23 @@ body {
     margin-left: 5px;
 }
 
+.btn--comprar--Modal {
+    background-color: #630000;
+    color: #efefef;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn--cerrar {
+    color: #efefef;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
 .btn--card:hover { 
     background-color: #efefef;
     color: #630000;
