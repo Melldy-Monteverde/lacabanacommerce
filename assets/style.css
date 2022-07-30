@@ -6,8 +6,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* generalizado */
 
+/* generalizado */
 a {
     text-decoration: none;
 }
@@ -44,6 +44,7 @@ body {
 .btn--navbar:hover {
     background-color: #630000;
     color: #efefef;
+    border: 1px solid #efefef;
 }
 
 .navbar-toggler{
