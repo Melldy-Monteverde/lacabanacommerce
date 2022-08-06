@@ -11,19 +11,19 @@ let carritoDeCompras = [];
 
 // carga el dom y ejecuta el fetch para obtener los datos de la api local
 window.addEventListener('DOMContentLoaded', () => {
-    console.log('dom cargado')
+
     fetch('api.json')
     .then(response => response.json())
     .then(products => {
-        // console.log(products)
-        console.log("todos los cards llenos desde el json")
-
+        console.log(products)
+        
         renderProductos(products)
-        renderCart(products)
+        // renderCart(products)
         
     })
-
+    
     .catch( er => console.log(er))
+    console.log('dom cargado')
 })
 
 // renderiza el stock y los muestraen el DOM
@@ -123,7 +123,7 @@ function renderProductos(products) {
                 })
             }
         })
-        // document.querySelector('#categoria').insertAdjacentElement("beforeend", btn);
+        
         document.querySelector('#categoria').appendChild(btn);
         
     })
@@ -143,17 +143,44 @@ function renderProductos(products) {
 
 // muestra el elemento del click btn comprar de cada card
 const addCarrito = e => {
-    // console.log(e.target)
 	console.log(e.target.classList.contains('btnComprar'))
+
+    let cantidad = 1
+    let nombre = document.querySelector('.card-title').textContent
+    let precio = document.querySelector('.precio').textContent
+    carritoDeCompras.push(cantidad)
     
+    const renderCart = (carritoDeCompras) => {
+    carritoDeCompras.forEach(({nombre, cantidad, precio}) => {
+
+        let modalList = `
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="badge bg-primary rounded-pill">${cantidad}</span>
+                ${nombre} $${precio}
+                <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    rmv
+                </button>
+                </li>
+            </ul>
+            `;
+        document.querySelector('.modal-body').innerHTML += modalList
+    })
+
+    renderCart()
+}
+        
+
 	if(e.target.classList.contains('btnComprar')) {
+        // console.log(e.target.getAttribute('dataset'))
         
         // revisar aqui
-        console.log(e.target.parentElement)
-        carritoDeCompras.push(e.target.parentElement)
+        // console.log(e.target.parentElement)
+        // carritoDeCompras.push(e.target.parentElement)
+        // carritoDeCompras.push(e.target.getAttribute('dataset'))
+        
 
         actualizarCarrito()
-        
         almacenarCarrito()
 	}
 	e.stopPropagation()
@@ -161,8 +188,11 @@ const addCarrito = e => {
 
 function actualizarCarrito() {
     contadorCarrito.innerText = carritoDeCompras.length;
-    let total = carritoDeCompras.reduce((acc, item) => acc + item.precio, 0);
-    console.log(`El valor del carrito es: $${total}`)
+
+    let valor = carritoDeCompras.reduce((acc, curr) => acc + curr, 0);
+    // console.log(`productos en el carrito: ${cantidadProd}`)
+    // // console.log(`El valor del carrito es: ${valor}`)
+
 }
 
 // previene el refresh del boton carrito 
@@ -178,23 +208,25 @@ btnCart.addEventListener('click', (e) => {
     console.log(carritoDeCompras)
 })
 
-const renderCart = (products) => {
-    products.forEach(({nombre, cantidad, precio}) => {
 
-        let modalList = `
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                <span class="badge bg-primary rounded-pill">${cantidad}</span>
-                ${nombre} $${precio}
-                <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                    rmv
-                </button>
-                </li>
-            </ul>
-            `;
-        document.querySelector('.modal-body').innerHTML += modalList
-    })
-}
+
+// const renderCart = (products) => {
+//     products.forEach(({nombre, cantidad, precio}) => {
+
+//         let modalList = `
+//             <ul class="list-group">
+//                 <li class="list-group-item d-flex justify-content-between align-items-center">
+//                 <span class="badge bg-primary rounded-pill">${cantidad}</span>
+//                 ${nombre} $${precio}
+//                 <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+//                     rmv
+//                 </button>
+//                 </li>
+//             </ul>
+//             `;
+//         document.querySelector('.modal-body').innerHTML += modalList
+//     })
+// }
 
 // vaciar carrito
 btnVaciarCarrito.addEventListener('click', (e) => {
@@ -205,6 +237,7 @@ btnVaciarCarrito.addEventListener('click', (e) => {
 
     // eliminamos los datos del storage
     localStorage.removeItem('productosAlmacenados')
+    console.clear()
     console.log('carrito vacio')
 })
 

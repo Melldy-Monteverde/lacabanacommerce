@@ -45,21 +45,25 @@
   <!-- cards -->
   <section class="container contenedor-cards">
     <div class="row text-center" id="productos">
-      <!-- 
-            <div class="col-12 col-md-4 mt-3 mb-3 d-flex justify-content-center">
-                  <div class="card text-dark" style="width: 18rem;">
-                      <img src="${img}" class="card-img-top">
-                      <div class="card-body">
-                        
-                          <h5 class="card-title">${nombre}</h5>
-                          <p class="card-text">${aviso}</p>
-                          <p class="card-text">$ ${precio}</p>
-                          <button class="btn btn-primary btn--card btnComprar" dataset=${id} id="btnAgregar${id}">Comprar</button>
-                          
-                      </div>
-                  </div>
+      
+      <template id="templateCard">
+
+        <div class="col-12 col-md-4 mt-3 mb-3 d-flex justify-content-center">
+          <div class="card text-dark" style="width: 18rem;">
+              <img src="${img}" class="card-img-top">
+              <div class="card-body">
+                
+                  <h5 class="card-title">${nombre}</h5>
+                  <p class="card-text">${aviso}</p>
+                  <p class="card-text">$ ${precio}</p>
+                  <button class="btn btn-primary btn--card btnComprar" dataset=${id} id="btnAgregar${id}">Comprar</button>
+                  
               </div>
-           -->
+          </div>
+        </div>
+        
+      </template>
+                      
     </div>
   </section>
 
